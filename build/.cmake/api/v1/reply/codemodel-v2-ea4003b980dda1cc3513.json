@@ -6,6 +6,10 @@
 			[
 				{
 					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
 					"projectIndex" : 0,
 					"source" : "."
 				}
@@ -18,7 +22,7 @@
 					[
 						0
 					],
-					"name" : "Project"
+					"name" : "KR"
 				}
 			],
 			"targets" : []

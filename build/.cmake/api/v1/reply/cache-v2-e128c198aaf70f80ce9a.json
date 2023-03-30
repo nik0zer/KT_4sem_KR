@@ -823,7 +823,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project"
+			"value" : "KR"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1104,6 +1104,30 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "KR_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/nikozer/KT_4sem_KR/KT_4sem_KR/build"
+		},
+		{
+			"name" : "KR_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/nikozer/KT_4sem_KR/KT_4sem_KR"
 		},
 		{
 			"name" : "Project_BINARY_DIR",
