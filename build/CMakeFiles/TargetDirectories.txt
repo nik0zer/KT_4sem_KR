@@ -1,0 +1,2 @@
+/home/nikozer/KT_4sem_KR/KT_4sem_KR/build/CMakeFiles/rebuild_cache.dir
+/home/nikozer/KT_4sem_KR/KT_4sem_KR/build/CMakeFiles/edit_cache.dir
