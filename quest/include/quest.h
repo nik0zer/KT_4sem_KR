@@ -9,6 +9,7 @@ class Room;
 class Quest;
 class Action;
 class Interaction;
+class Activation;
 
 enum GAME_CONDITION
 {
@@ -47,21 +48,22 @@ class Move : public Action
 
 class Interaction : public Action
 {
-    private:
+    protected:
     virtual int make_action(Quest& quest, Room& room) override;
 };
 
 class Deactivation : public Action
 {
-    private:
+    protected:
     virtual int make_action(Quest& quest, Room& room) override;
+    friend Activation;
 };
 
 class Activation : public Action
 {
-    private:
+    protected:
     Deactivation _deactivation;
-    virtual int make_action(Quest& quest) override;
+    virtual int make_action(Quest& quest, Room& room) override;
     Activation(std::string action_name, std::string action_text, int action_result, Deactivation deactivation) : 
     Action(action_name, action_text, action_result), _deactivation(deactivation){};
 };
