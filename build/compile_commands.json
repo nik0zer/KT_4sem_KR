@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/nikozer/KT_4sem_KR/KT_4sem_KR/build",
+  "command": "/usr/bin/g++   -I../quest/include  -g   -std=gnu++17 -o CMakeFiles/quest.dir/quest/src/main.cpp.o -c /home/nikozer/KT_4sem_KR/KT_4sem_KR/quest/src/main.cpp",
+  "file": "/home/nikozer/KT_4sem_KR/KT_4sem_KR/quest/src/main.cpp"
+},
+
+{
+  "directory": "/home/nikozer/KT_4sem_KR/KT_4sem_KR/build",
+  "command": "/usr/bin/g++   -I../quest/include  -g   -std=gnu++17 -o CMakeFiles/quest.dir/quest/src/quest.cpp.o -c /home/nikozer/KT_4sem_KR/KT_4sem_KR/quest/src/quest.cpp",
+  "file": "/home/nikozer/KT_4sem_KR/KT_4sem_KR/quest/src/quest.cpp"
+}
+]

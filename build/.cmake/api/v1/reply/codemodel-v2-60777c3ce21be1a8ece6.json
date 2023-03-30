@@ -11,7 +11,11 @@
 						"string" : "3.16"
 					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -22,10 +26,23 @@
 					[
 						0
 					],
-					"name" : "KR"
+					"name" : "KR",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
-			"targets" : []
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "quest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quest-Debug-314385469c0ff13cab4f.json",
+					"name" : "quest",
+					"projectIndex" : 0
+				}
+			]
 		}
 	],
 	"kind" : "codemodel",

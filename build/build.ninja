@@ -53,6 +53,45 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target quest
+
+
+#############################################
+# Order-only phony target for quest
+
+build cmake_object_order_depends_target_quest: phony || CMakeFiles/quest.dir
+
+build CMakeFiles/quest.dir/quest/src/main.cpp.o: CXX_COMPILER__quest ../quest/src/main.cpp || cmake_object_order_depends_target_quest
+  DEP_FILE = CMakeFiles/quest.dir/quest/src/main.cpp.o.d
+  FLAGS = -g   -std=gnu++17
+  INCLUDES = -I../quest/include
+  OBJECT_DIR = CMakeFiles/quest.dir
+  OBJECT_FILE_DIR = CMakeFiles/quest.dir/quest/src
+
+build CMakeFiles/quest.dir/quest/src/quest.cpp.o: CXX_COMPILER__quest ../quest/src/quest.cpp || cmake_object_order_depends_target_quest
+  DEP_FILE = CMakeFiles/quest.dir/quest/src/quest.cpp.o.d
+  FLAGS = -g   -std=gnu++17
+  INCLUDES = -I../quest/include
+  OBJECT_DIR = CMakeFiles/quest.dir
+  OBJECT_FILE_DIR = CMakeFiles/quest.dir/quest/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quest
+
+
+#############################################
+# Link the executable quest
+
+build quest: CXX_EXECUTABLE_LINKER__quest CMakeFiles/quest.dir/quest/src/main.cpp.o CMakeFiles/quest.dir/quest/src/quest.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/quest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = quest
+  TARGET_PDB = quest.dbg
+
+# =============================================================================
 # Target aliases.
 
 # =============================================================================
@@ -63,7 +102,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 #############################################
 # Folder: /home/nikozer/KT_4sem_KR/KT_4sem_KR/build
 
-build all: phony
+build all: phony quest
 
 # =============================================================================
 # Built-in targets
